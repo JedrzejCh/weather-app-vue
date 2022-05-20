@@ -1,4 +1,11 @@
 
+
+### A simple weather app
+
+I wanted to learn Vuex and get to know Vue better
+
+## Technologies used: vue.js, vuex, stylus, pug
+
 ## Project setup
 
 npm install
