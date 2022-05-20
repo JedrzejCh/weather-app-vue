@@ -7,7 +7,7 @@
 
 <script>
 import get from 'lodash.get';
-import store from '../store';
+
 
 export default {
   name: 'SearchPanel',
@@ -18,9 +18,9 @@ export default {
   },
   methods: {
     submit() {
-      store.dispatch('setLoading', true);
-      store.dispatch('setSearchValue', this.searchValue);
-      store.dispatch('fireAPICalls');
+      this.$store.dispatch('setLoading', true);
+      this.$store.dispatch('setSearchValue', this.searchValue);
+      this.$store.dispatch('fireAPICalls');
     },
   },
   computed: {
