@@ -2,9 +2,13 @@
 
 ### A simple weather app
 
-I wanted to learn Vuex and get to know Vue better
+## I wanted to learn Vuex and get to know Vue better
 
 ## Technologies used: vue.js, vuex, stylus, pug
+
+## Live: https://openvue-weather.netlify.app/
+
+
 
 ## Project setup
 
