@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = 'http://api.openweathermap.org';
+const API = 'https://api.openweathermap.org';
 const APIKEY = 'da4eb50462e6d6a603af1fe2ac7db43c';
 
 // export default{
@@ -31,7 +31,7 @@ export function getWeatherData({ lat, lon }) {
 }
 
 export function getWeatherIcon(icon) {
-  return axios.get(`http://openweathermap.org/img/w/${icon}.png`)
+  return axios.get(`https://openweathermap.org/img/w/${icon}.png`)
     .then(response => response.data)
     .catch((err) => {
       console.log(err);
