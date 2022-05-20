@@ -16,7 +16,6 @@ export default {
   name: 'home',
   components: { SearchPanel, Dashboard },
   created() {
-    console.log(this.$store)
     navigator.geolocation.getCurrentPosition(({ coords }) => {
       const { latitude: lat, longitude: lon } = coords;
       const preparedDAta = { lat, lon };
